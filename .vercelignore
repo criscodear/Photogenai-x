@@ -1,0 +1,20 @@
+# Arquivos desnecessários para o deploy
+desktop/
+node-graph/
+libraries/
+proc-macros/
+website/
+demo-artwork/
+*.graphite
+
+# Arquivos de desenvolvimento
+.git/
+.gitignore
+*.md
+LICENSE.txt
+rustfmt.toml
+deny.toml
+
+# Arquivos temporários
+target/
+Cargo.lock

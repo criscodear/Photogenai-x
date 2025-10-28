@@ -1,0 +1,18 @@
+{
+	"buildCommand": "chmod +x build.sh && ./build.sh",
+	"outputDirectory": "frontend/dist",
+	"installCommand": "echo 'Dependências serão instaladas pelo script de build'",
+	"framework": null,
+	"functions": {
+		"frontend/dist/**": {
+			"runtime": "nodejs18.x"
+		}
+	},
+	"build": {
+		"env": {
+			"RUST_VERSION": "1.88.0",
+			"CARGO_HOME": "/tmp/cargo",
+			"RUSTUP_HOME": "/tmp/rustup"
+		}
+	}
+}
